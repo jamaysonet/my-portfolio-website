@@ -1,87 +1,94 @@
 -body {
-    /* Typography Declarations */
-    color: #222222;
+/* Typography Declarations */
+    color: #222;
     font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Open Sans","Helvetica Neue",sans-serif;
 }
-.masthead{
-  /*Deader Declarations*/
-  padding: 6em 0;
-  background-image: url(http://i1180.photobucket.com/albums/x401/jamaysonet/snow_zps0hbrnroo.jpg);
+
+.masthead {
+/*Deader Declarations*/
+    padding: 6em 0;
+    background-image: url(http://i1180.photobucket.com/albums/x401/jamaysonet/snow_zps0hbrnroo.jpg);
     border-top: solid 1em #404040;
 }
-.masthead-intro,
-.masthead-name, 
-.content-footer {
-  text-align: center;
+
+.masthead-intro,.masthead-name,.content-footer {
+    text-align: center;
 }
-.background-body{
-  padding: 6em 0;
+
+.background-body {
+    padding: 6em 0;
 }
+
 .masthead-intro {
-    margin-bottom: 0.1em;
-    font-family: "Gentium Book Basic", Georgia, serif;
+    margin-bottom: .1em;
+    font-family: "Gentium Book Basic",Georgia,serif;
     font-size: 2em;
 }
+
 .masthead-name {
-    margin-top: -0.2em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: bold;
+    margin-top: -.2em;
+    font-family: "Open Sans","Helvetica Neue",sans-serif;
+    font-weight: 700;
     font-size: 5em;
-    letter-spacing: -0.02em;
+    letter-spacing: -.02em;
     text-transform: uppercase;
 }
 
-.introduction-section, 
-.location-section,
-.questions-section{
- 
- max-width: 40em;
- margin-left: auto;
- margin-right: auto;
- margin-top: 2em;
-background: linear-gradient(#404040,white);
-background: -ms-linear-gradient(#404040,white);
-background: -o-linear-gradient(##404040,white);
-background: -webkit-linear-gradient(#404040,white);
+.introduction-section,.location-section,.questions-section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    background: linear-gradient(#404040,white);
+    background: -ms-linear-gradient(#404040,white);
+    background: -o-linear-gradient(##404040,white);
+    background: -webkit-linear-gradient(#404040,white);
 }
 
 .social > li {
- display: inline-block;
+    display: inline-block;
 }
 
-.introduction-section > p,
-.location-section > p,
-.content-footer > p,{
-	/*Typography Declarations*/
-	font-weight: 300;
-	letter-spacing: 0.05em;
+.introduction-section > p,.location-section > p,.content-footer > p, {
+/*Typography Declarations*/
+    font-weight: 300;
+    letter-spacing: .05em;
 }
-.content-footer{
-  color: white;
-  background-color: #4d4d4d;
-  font-size: 20px;
-  border: 3px solid #000;
+
+.content-footer {
+    color: #fff;
+    background-color: #4d4d4d;
+    font-size: 20px;
+    border: 3px solid #000;
 }
+
+.inline {
+    list-style: none;
+    display: inline;
+}
+
 /*Original Color*/
-a:link{
-color: White; 
-  
-}
-/*Color after link is used*/
-a:visited{
-  color: red;
-}
-a:hover{
-  color: black;
+a:link {
+    color: #fff;
 }
 
-.questions-section >h2{
-	/*Typography Declarations*/
-	font-family: "Genium Book Basic", Georgia, serif;
-	font-size: 1.2em;
-	font-weight: bold;
+/*Color after link is used*/
+a:visited {
+    color: red;
 }
-section > h1{
-	margin-top: 2em
+
+a:hover {
+    color: #000;
+}
+
+.questions-section >h2 {
+/*Typography Declarations*/
+    font-family: "Genium Book Basic",Georgia,serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+section > h1 {
+    margin-top: 2em;
 }
