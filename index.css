@@ -1,0 +1,87 @@
+-body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.masthead{
+  /*Deader Declarations*/
+  padding: 6em 0;
+  background-image: url(http://i1180.photobucket.com/albums/x401/jamaysonet/snow_zps0hbrnroo.jpg);
+    border-top: solid 1em #404040;
+}
+.masthead-intro,
+.masthead-name, 
+.content-footer {
+  text-align: center;
+}
+.background-body{
+  padding: 6em 0;
+}
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+.masthead-name {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 5em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.introduction-section, 
+.location-section,
+.questions-section{
+ 
+ max-width: 40em;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 2em;
+background: linear-gradient(#404040,white);
+background: -ms-linear-gradient(#404040,white);
+background: -o-linear-gradient(##404040,white);
+background: -webkit-linear-gradient(#404040,white);
+}
+
+.social > li {
+ display: inline-block;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p,{
+	/*Typography Declarations*/
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+.content-footer{
+  color: white;
+  background-color: #4d4d4d;
+  font-size: 20px;
+  border: 3px solid #000;
+}
+/*Original Color*/
+a:link{
+color: White; 
+  
+}
+/*Color after link is used*/
+a:visited{
+  color: red;
+}
+a:hover{
+  color: black;
+}
+
+.questions-section >h2{
+	/*Typography Declarations*/
+	font-family: "Genium Book Basic", Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+section > h1{
+	margin-top: 2em
+}
